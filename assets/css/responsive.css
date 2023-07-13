@@ -1,0 +1,158 @@
+
+
+@media screen and (min-width: 992px) {
+    .mobile-menu {
+        display: none;
+    } 
+     
+}
+
+
+/* max width */
+
+@media screen and (max-width: 1449px) {
+    .talk_about_apple_img .right_image {
+        right: 0;
+    }
+    .talk_about_apple_img .left_image {
+        left: 100px;
+    }
+}
+
+@media screen and (max-width:1339px) {
+    .choose_left_item span {
+        font-size: 20px;
+    }
+    .talk_about_apple_img .left_image {
+        left: 0;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .choose_right_img {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    
+}
+ 
+@media screen and (max-width:991px) {
+    .mobile-menu {
+        display: block;
+    } 
+    .menu_section {
+        display: none;
+    }
+    button.accordion {
+        font-size: 16px;
+    }
+    .hero_content {
+        padding: 160px 0px 111px;
+    }
+    .mobile-menu .header-logo img {
+        width: 52px;
+    }
+    
+    
+}
+
+@media screen and (max-width:880px) {
+    .values_apple_img img {
+        display: none;
+    }
+    .talk_about_apple_img .left_image, .talk_about_apple_img .right_image {
+        display: none;
+    }
+}
+@media screen and (max-width:767px) {
+    .common_title h2 {
+        font-size: 28px;
+    }
+    .choose_right_img img {
+        width: 100%;
+    }
+    .wrapper {
+        width: 100%;
+        background: #fff;
+    }
+    ul.days {
+        padding-left: 0px;
+    }
+    .calendar {
+        padding-left: 5px;
+    }
+    .talk_about_section {
+        padding-bottom: 80px;
+    }
+    .follow_img img {
+        width: 47px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .accordion_apple_img {
+        display: none;
+    }
+    .common_title h2 {
+        font-size: 22px;
+    }
+    .follow_content p {
+        font-size: 20px;
+    }
+    .follow_img img {
+        width: 47px;
+    }
+    .follow_content {
+        padding-left: 20px;
+    }
+    .footer_ins {
+        text-align: center;
+        width: 100%;
+        margin: 40px 0px;
+    }
+
+    .footer_txt , .footer_logo{
+        color: #fff;
+        text-align: center;
+        width: 100%;
+    }
+    .footer_logo p {
+        margin-top: 12px;
+    }
+    .apple_img_two, .apple_img_one  {
+        display: none;
+    }
+    .hero_content h2 {
+        font-size: 30px;
+    }
+    .hero_content h3 {
+        font-size: 20px;
+    }
+    .hero_content p {
+        font-size: 13px;
+    }
+    .hero_content h5 {
+        font-size: 10px;
+        background-color: var(--primary-color);
+        max-width: 267px;
+    }   
+    .hero_content a {
+        font-size: 16px;
+    } 
+    .time_zone_title,
+    .time_zone_select_section_inner {
+        padding-left: 11px;
+    }
+}
+
+
+@media screen and (max-width:375px) {
+    
+}
+
+@media screen and (max-width:320px) {
+    
+}

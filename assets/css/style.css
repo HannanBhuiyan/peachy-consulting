@@ -1,0 +1,661 @@
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+:root {
+    --primary-color: #ED774D;
+    --inter-family: 'Inter', sans-serif;
+    --raleway-family: 'Raleway', sans-serif; 
+   
+}
+ 
+
+/* HEADER SECTION CSS START HERE */
+ 
+
+ 
+/* MOBILE MENU SECTION CSS START HERE */
+.mobile-menu .header-top {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999999999;
+    
+}
+.mobile-menu .header-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 18px;
+}
+.mobile-menu .header-item .header-item-right span i {
+    font-size: 30px;
+    color: var(--primary-color);
+}
+.mobile-menu .header-item .header-item-right span i.fa-solid.fa-xmark {
+    display: none;
+}
+.mobile-menu .header-item .header-item-right.hhhh span i {
+    display: none;
+}
+.mobile-menu .header-item .header-item-right.hhhh span i.fa-solid.fa-xmark {
+    display: block;
+}
+.mobile-menu .header-bottom {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background: #fff;
+    width: 100%;
+    transform: scaleY(0);
+    transform-origin: top;
+    height: 100%;
+    overflow-y: scroll;
+    padding: 0 20px;
+    padding-bottom: 60px;
+    transition: all 0.3s ease;
+}
+.mobile-menu .header-bottom.open {
+    transform: scaleY(1);
+}
+.mobile-menu .header-bottom .header-menu > ul {
+    padding: 0;
+    padding-top: 120px;
+}
+.mobile-menu .header-bottom .header-menu ul li{
+    list-style: none;
+    border-bottom: 1px solid var(--primary-color);
+    padding: 18px 0px;
+    margin: 0px 25px;
+}
+.mobile-menu .header-bottom .header-menu ul li:last-child {
+    border-bottom: none;
+}
+.mobile-menu .header-bottom .header-menu ul li.m  a {
+    position: relative; 
+}
+.mobile-menu .header-bottom .header-menu ul li.m > a::after {
+    top: 50%;
+    right: 0;
+    font-weight: 700;
+    content: "\f078";
+    font-family: "Font Awesome 5 Free";
+    transition:  all .3s ease-in-out;
+    position: absolute;
+}
+.mobile-menu .header-bottom .header-menu ul li ul {
+    display: none;
+    margin: 15px 0;
+}
+.mobile-menu .header-bottom .header-menu ul li.m > a {
+    position: relative;
+}
+.mobile-menu .header-bottom .header-menu ul li a {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+.mobile-menu .header-bottom .header-menu ul li span i {
+    position: absolute;
+    right: 25px;
+    font-size: 15px;
+}
+/* MOBILE MENU SECTION CSS END HERE */
+
+
+/* HERO SECTION START HERE */
+a.active {
+    color: var(--primary-color) !important;
+    font-weight: 800 !important;
+}
+.hero_inner {
+    background: url('../images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-position: center;
+}
+
+.menu_inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.menu_logo a img {
+    width: 100%;
+}
+
+.menu_item ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.menu_item ul li {
+    list-style: none;
+}
+.menu_item ul li:last-child a {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 23px;
+}
+.menu_item ul li a {
+    font-family: var(--raleway-family);
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+    margin-left: 35px;
+}
+.hero_content {
+    padding: 122px 0px 144px;
+}
+.hero_content h5 {
+    font-size: 15px;
+    background-color:var(--primary-color);
+    max-width: 380px;
+    padding: 2px 0px;
+    text-align: center;
+    border-radius: 2px;
+    color: #fff;
+    font-family: var(--inter-family);
+}
+.hero_content h3 {
+    font-family: var(--raleway-family);
+    font-weight: 500;
+    font-size: 31px;
+    color: #fff;
+}
+
+.hero_content h2 {
+    font-family: var(--raleway-family);
+    font-weight: 900;
+    font-size: 60px;
+    color: #fff;
+}
+.hero_content p {
+    font-family: var(--raleway-family);
+    font-size: 20px;
+    font-weight: 600;
+    max-width: 547px;
+    color: #fff;
+    padding-bottom: 18px;
+}
+.hero_content a {
+    font-size: 27px;
+    font-weight: 600;
+    font-family: var(--raleway-family);
+    text-decoration: none;
+    color: #fff;
+    background: var(--primary-color);
+    border-radius: 23px;
+    padding: 9px 29px;
+}
+/* HERO SECTION END HERE */
+
+
+
+/* SERVICE SECTION START HERE */
+
+.service_section {
+    position: relative;
+    padding: 40px 0px 82px;
+}
+.service_btn {
+    margin-top: 24px;
+}
+
+.apple_img_one {
+    position: absolute;
+    left: 0;
+    bottom: -100px;
+}
+
+.apple_img_two {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.common_title h2 {
+    font-family: var(--raleway-family);
+    font-weight: 900;
+    font-size: 40px;
+    color: var(--primary-color);
+}
+
+.common_sub_title h4 {
+    color: var(--primary-color);
+    font-family: var(--raleway-family);
+    font-weight: 700;
+    font-size: 24px;
+}
+.service_item p {
+    font-size: 16px;
+    font-family: 'Raleway';
+    font-weight: 500;
+}
+.service_btn a {
+    font-size: 21px;
+    font-weight: 600;
+    font-family: var(--raleway-family);
+    text-decoration: none;
+    color: #fff;
+    background: var(--primary-color);
+    padding: 4px 14px;
+    border-radius: 23px;
+}
+
+.service_btn a i {
+    padding-left: 15px;
+}
+.service_sub_title {
+    padding-top: 10px;
+}
+
+.service_item_inner {
+    padding-top: 25px;
+}
+/* SERVICE SECTION END HERE */
+
+/* CHOOSE SECTION START HERE */
+
+.choose_left_item span {
+    font-family: var(--raleway-family);
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--primary-color);
+    padding-left: 13px;
+}
+
+.choose_right_img {
+    text-align: end;
+}
+.choose_left_item {
+    background: #ED774D33;
+    border-radius: 18px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.choose_left_item p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--raleway-family);
+    margin: 0;
+    padding-top: 18px;
+}
+ 
+.choose_warpper {
+    padding: 20px 0px 50px;
+}
+
+.values_section {
+    position: relative;
+}
+
+.values_apple_img img {
+    position: absolute;
+    right: 0;
+    top: -52px;
+}
+.values_title {
+    padding-bottom: 20px;
+}
+
+/* CHOOSE SECTION END HERE */
+
+
+/* FOLLOW SECTION CSS START HER */
+
+.follow_section {
+    background: #ED774D33;
+    padding: 38px 0px;
+    margin: 52px 0px 100px;
+}
+
+.follow_item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.follow_content {
+    padding-left: 34px;
+    
+}
+
+.follow_content p {
+    font-size: 32px;
+    font-weight: 500;
+    font-family: var(--raleway-family);
+    line-height: 16px;
+}
+
+/* FOLLOW SECTION CSS END HERE */
+
+
+
+/* CALENDER SECTION CSS START HERE */
+.cal_title {
+    max-width: 490px;
+    margin: auto;
+    text-align: center;
+}
+.wrapper{
+    width: 450px;
+    background: #fff; 
+    margin: auto;
+}
+.wrapper header{
+    display: flex;
+    align-items: center;
+    padding: 25px 30px 10px;
+    justify-content: space-between;
+}
+header .icons{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+header .icons span{
+    height: 38px;
+    width: 38px;
+    margin: 0 1px;
+    cursor: pointer;
+    color: #878787;
+    text-align: center;
+    line-height: 38px;
+    font-size: 1.9rem;
+    user-select: none;
+    border-radius: 50%;
+}
+.icons span:last-child{
+    margin-right: -10px;
+}
+header .icons span:hover{
+    background: #f2f2f2;
+    color: #FF88DC;
+}
+header .current-date{
+    font-weight: 500;
+    font-family: 'Inter';
+    padding: 0px 30px;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 4px;
+    color: #333333bf;
+}
+.calendar{
+    padding: 20px;
+}
+.calendar ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+}
+.calendar .days{
+    margin-bottom: 20px;
+}   
+.calendar li{
+    color: #333;
+    width: calc(100% / 7);
+    font-size: 1.07rem;
+    
+}
+.calendar .weeks li{
+    font-weight: 500;
+    cursor: default;
+    font-family: var(--inter-family);
+    color: #333333bf;
+    text-transform: uppercase;
+}
+.calendar .days li{
+    z-index: 1;
+    cursor: pointer;
+    position: relative;
+    margin-top: 30px;
+    color: #FF88DC;
+    font-weight: 700;   
+    
+}
+.days li.inactive{
+    color: #aaa;
+    font-weight: 400 !important;
+}
+.days li.inactive::before {
+    background: transparent !important;
+}
+.days li.active{
+    color: #fff;
+}
+.days li::before{
+    position: absolute;
+    content: "";
+    left: 50%;
+    top: 50%;
+    height: 40px;
+    width: 40px;
+    z-index: -1;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF9FD;
+}
+.days li.active::before{
+    background: #FF88DC;
+    
+}
+.days li:not(.active):hover::before{
+    background: #f2f2f2;
+}
+.talk_about_section {
+    position: relative;
+    padding-bottom: 125px;
+}
+
+.talk_about_apple_img .right_image {
+    position: absolute;
+    right: 150px;
+    top: -50px;
+}
+
+.talk_about_apple_img .left_image {
+    position: absolute;
+    top: 300px;
+    left: 150px;
+}
+
+.cal_title p {
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 600;
+    margin: 15px 0px 62px 0px;
+}
+
+.select_Day {
+    text-align: center;
+}
+
+.select_Day h2 {
+    font-size: 22px;
+    font-family: var(--raleway-family);
+    font-weight: 700;
+    margin-bottom: 13px;
+}
+
+.time_zone_select_section_inner {
+    display: flex;
+    padding-left: 36px;
+}
+
+.time_zone_footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 42px;
+}
+
+.time_zone_footer a {
+    text-decoration: none;
+    font-family: var(--raleway-family);
+    font-weight: 600;
+}
+
+.time_zone_title {
+    padding-left: 36px;
+}
+
+.time_zone_title h4 {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--raleway-family);
+}
+select {
+    border: none;
+    outline: none;
+    font-family: var(--inter-family);
+    font-weight: 500;
+    margin-left: 8px;
+}
+.cooki a {
+    color: #FF88DC;
+    padding-right: 10px;
+}
+.report a {
+    padding-left: 10px;
+}
+
+/* CALENDER SECTION CSS END HERE */
+
+
+
+/* QUESTION ACCORDION SECTION */
+
+.question_accordion_item {
+    margin-bottom: 14px;
+    background-color: #FBE4DB;
+    border-radius: 18px;
+}
+
+.question_accordio_section {
+    padding-bottom: 55px;
+    position: relative;
+}
+.panel p {
+    font-family: var(--raleway-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: #353535;
+}
+ 
+.accordion {
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    background-color: transparent;
+}
+ 
+.accordion:after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    background-image: url('../images/down-arrow.png');
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    float: right;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+  
+.active:after {
+    content: "";
+    background-image: url('../images/up-arrow.png');
+    
+}
+.panel {
+    padding: 0px 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    
+}
+button.accordion {
+    border-radius: 18px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ED774D;
+}
+.question_accordion_title {
+    margin-bottom: 30px;
+}
+.accordion_apple_img img {
+    position: absolute;
+    right: 0;
+    bottom: -93px;
+    z-index: -1;
+}
+.footer_section {
+    background: #414141;
+    padding: 55px 0px;
+}
+
+.footer_inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_logo p {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 20px;
+    font-family: 'Raleway';
+    font-weight: 500;
+}
+
+.footer_ins {
+    text-align: center;
+}
+
+.footer_ins h4 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.footer_txt {
+    color: #fff;
+}
+
+.footer_txt h5 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.footer_txt p {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+/* QUESTION ACCORDION SECTION */
