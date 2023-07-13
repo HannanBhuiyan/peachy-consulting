@@ -33,6 +33,12 @@
         text-align: center;
         margin-bottom: 40px;
     }
+    .service_info_item_one .common_sub_title.service_info_title {
+        margin-top: 30px;
+    }
+    .item_margin {
+        margin-bottom: 80px;
+    }
 }
 
 @media screen and (max-width:1023px) {
@@ -55,6 +61,10 @@
     .mobile-menu .header-logo img {
         width: 52px;
     }
+    .hero_content.service_hero_content {
+        padding: 160px 0px 17px;
+    }
+    
     
     
 }
@@ -93,6 +103,9 @@
 }
 
 @media screen and (max-width:575px) {
+    .service_info_img img {
+        width: 100%;
+    }
     .accordion_apple_img {
         display: none;
     }
@@ -145,6 +158,17 @@
     .time_zone_title,
     .time_zone_select_section_inner {
         padding-left: 11px;
+    }
+    .service_info_title h4 {
+        font-size: 20px;
+    }
+    .service_info_content p ,
+    .service_info_list ul li {
+        margin: 0;
+        font-size: 16px;
+    }
+    .service_info_section {
+        padding: 78px 0px; 
     }
 }
 

@@ -182,7 +182,7 @@ a.active {
 .hero_content h2 {
     font-family: var(--raleway-family);
     font-weight: 900;
-    font-size: 60px;
+    font-size: 64px;
     color: #fff;
 }
 .hero_content p {
@@ -659,3 +659,53 @@ button.accordion {
     margin: 0;
 }
 /* QUESTION ACCORDION SECTION */
+
+/* SERVICE SECTION CSS START HERE */
+
+.service_hero_inner {
+    background-image: url('../images/service-page/service_banner.png');
+}
+.service_hero_content {
+    padding: 122px 0px 50px;
+}
+.service_info_section {
+    padding: 115px 0px;
+    position: relative;
+}
+.service_info_content {
+    font-size: 20px;
+    font-family: 'Raleway';
+    font-weight: 500;
+}
+
+.service_info_content p {
+    margin: 0;
+}
+.service_info_title h4 {
+    font-size: 32px;
+}
+.item_margin {
+    margin-bottom: 115px;
+}
+.service_info_apple_one {
+    position: absolute;
+    right: 0;
+    top: 16%;
+}
+.service_info_apple_three {
+    position: absolute;
+    right: 0;
+    top: 58%;
+}
+.service_info_apple_two {
+    position: absolute;
+    left: 0;
+    top: 34%;
+}
+.row.responsive_service_item {
+    flex-direction: column-reverse;
+}
+.service_info_img.responsive_image {
+    text-align: start !important;
+}
+/* SERVICE SECTION CSS END HERE */
